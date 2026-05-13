@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".welcome">
+
+    <!-- BARRA DE CIMA FIXA -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/gradiente_banner_superior"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_logo_id"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/img_logo" />
+
+        <LinearLayout
+            android:id="@+id/display_nome"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_nome_do_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nome_do_app"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/descricao_nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descricao_nome"
+                android:textSize="16sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- DAQUI PRA BAIXO ROLA -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:id="@+id/main_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/selec_idioma"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/txt_selec_idioma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/selecione_idioma"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_portugues"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_portugues"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/portugues"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_portugues"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_brasil"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_ingles"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_ingles"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ingles"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_ingles"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_usa"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_alemao"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_alemao"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/alemao"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_alemao"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_alemanha"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_espanhol"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_espanhol"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/espanhol"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_espanhol"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_espanha"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_italiano"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_italiano"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/italiano"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_italiano"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_italia"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_japones"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_japones"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/japones"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_japones"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_japao"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_frances"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_frances"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/frances"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_frances"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_franca"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_russo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/fundo_selec_idioma"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/txt_russo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/russo"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp" />
+
+                <ImageView
+                    android:id="@+id/img_russo"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/bandeira_russia"
+                    android:layout_marginEnd="20dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

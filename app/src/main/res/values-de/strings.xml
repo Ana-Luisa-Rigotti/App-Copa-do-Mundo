@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">App_Copa_do_Mundo</string>
+
+    <string name="nome_do_app">Das Schaufenster der Weltmeisterschaft</string>
+    <string name="descricao_nome">WELTMEISTERSCHAFT\n2026</string>
+
+    <string name="selecione_idioma">Sprache auswählen</string>
+    <string name="portugues">Portugiesisch</string>
+    <string name="ingles">Englisch</string>
+    <string name="russo">Russisch</string>
+    <string name="espanhol">Spanisch</string>
+    <string name="italiano">Italienisch</string>
+    <string name="japones">Japanisch</string>
+    <string name="frances">Französisch</string>
+    <string name="alemao">Deutsch</string>
+
+    <string name="teste">Test</string>
+</resources>
+

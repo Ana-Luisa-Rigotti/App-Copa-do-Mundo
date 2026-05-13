@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">App_Copa_do_Mundo</string>
+
+    <string name="nome_do_app">Витрина чемпионата мира</string>
+    <string name="descricao_nome">ЧЕМПИОНАТ МИРА\n2026</string>
+
+    <string name="selecione_idioma">Выберите язык</string>
+    <string name="portugues">Португальский</string>
+    <string name="ingles">Английский</string>
+    <string name="russo">Русский</string>
+    <string name="espanhol">Испанский</string>
+    <string name="italiano">Итальянский</string>
+    <string name="japones">Японский</string>
+    <string name="frances">Французский</string>
+    <string name="alemao">Немецкий</string>
+
+    <string name="teste">тест</string>
+</resources>
+
+

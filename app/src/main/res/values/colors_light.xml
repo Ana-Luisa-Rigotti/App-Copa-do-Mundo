@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="fundo_splash">#F1E1A0</color>
+
+    <color name="cor_banner_superior_start">#F6E5B8</color>
+    <color name="cor_banner_superior_center">#27F6E5B8</color>
+    <color name="cor_banner_superior_end">#FFF8F2</color>
+
+    <color name="cor_selec_idioma">#CECCCC</color>
+    <color name="cor_fundo_categorias">#FFF1C4</color>
+</resources>

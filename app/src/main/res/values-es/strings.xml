@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">App_Copa_do_Mundo</string>
+
+    <string name="nome_do_app">La Vitrina de la Copa</string>
+    <string name="descricao_nome">COPA DEL MUNDO\n2026</string>
+
+    <string name="selecione_idioma">Selecciona el idioma</string>
+    <string name="portugues">Portugués</string>
+    <string name="ingles">Inglés</string>
+    <string name="russo">Ruso</string>
+    <string name="espanhol">Español</string>
+    <string name="italiano">Italiano</string>
+    <string name="japones">Japonés</string>
+    <string name="frances">Francés</string>
+    <string name="alemao">Alemán</string>
+
+    <string name="teste">prueba</string>
+
+</resources>
+
+
