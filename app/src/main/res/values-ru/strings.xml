@@ -3,7 +3,7 @@
 <resources>
     <string name="app_name">App_Copa_do_Mundo</string>
 
-    <string name="nome_do_app">Витрина чемпионата мира</string>
+    <string name="nome_do_app">Витрина чемпионата\nмира</string>
     <string name="descricao_nome">ЧЕМПИОНАТ МИРА\n2026</string>
 
     <string name="selecione_idioma">Выберите язык</string>

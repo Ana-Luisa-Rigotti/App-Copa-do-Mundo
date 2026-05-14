@@ -4,7 +4,7 @@
     <string name="app_name">App_Copa_do_Mundo</string>
 
 
-        <string name="nome_do_app">ワールドカップショーケース</string>
+        <string name="nome_do_app">ワールドカップショーケ\nース</string>
         <string name="descricao_nome">ワールドカップ\n2026</string>
 
         <string name="selecione_idioma">言語を選択</string>

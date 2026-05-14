@@ -3,7 +3,7 @@
 
     <string name="nome_do_app">The World Cup Showcase</string>
 
-    <string name="descricao_nome">WORLD CUP 2026\n2026</string>
+    <string name="descricao_nome">WORLD CUP\n2026</string>
 
     <string name="selecione_idioma">Select Language</string>
     <string name="portugues">Portuguese</string>
@@ -16,4 +16,30 @@
     <string name="alemao">German</string>
 
     <string name="teste">test</string>
+    <string name="zero">0</string>
+
+    <string name="tabelas">Tables</string>
+    <string name="tabelas_simbolo">🏆</string>
+
+    <string name="time">Team</string>
+    <string name="pontos">Pts</string>
+    <string name="partidas_jogadas">MP</string>
+    <string name="vitorias">W</string>
+    <string name="empates">D</string>
+    <string name="derrotas">L</string>
+    <string name="gols_marcados">GF</string>
+    <string name="gold_contra">GA</string>
+    <string name="saldo_de_gols">GD</string>
+
+    <string name="grupo_a">Group A</string>
+
+    <string name="primeiro_tabela">1</string>
+    <string name="segundo_tabela">2</string>
+    <string name="terceiro_tabela">3</string>
+    <string name="quarto_tabela">4</string>
+    
+    <string name="mexico">Mexico</string>
+    <string name="africa_sul">South Africa</string>
+    <string name="coreia_sul">South Korea</string>
+    <string name="tchequia">Czechia</string>
 </resources>
