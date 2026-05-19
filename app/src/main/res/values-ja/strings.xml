@@ -4,20 +4,59 @@
     <string name="app_name">App_Copa_do_Mundo</string>
 
 
-        <string name="nome_do_app">ワールドカップショーケ\nース</string>
-        <string name="descricao_nome">ワールドカップ\n2026</string>
+    <string name="nome_do_app">ワールドカップショーケ\nース</string>
+    <string name="descricao_nome">ワールドカップ\n2026</string>
 
-        <string name="selecione_idioma">言語を選択</string>
-        <string name="portugues">ポルトガル語</string>
-        <string name="ingles">英語</string>
-        <string name="russo">ロシア語</string>
-        <string name="espanhol">スペイン語</string>
-        <string name="italiano">イタリア語</string>
-        <string name="japones">日本語</string>
-        <string name="frances">フランス語</string>
-        <string name="alemao">ドイツ語</string>
+    <string name="selecione_idioma">言語を選択</string>
+    <string name="portugues">ポルトガル語</string>
+    <string name="ingles">英語</string>
+    <string name="russo">ロシア語</string>
+    <string name="espanhol">スペイン語</string>
+    <string name="italiano">イタリア語</string>
+    <string name="japones">日本語</string>
+    <string name="frances">フランス語</string>
+    <string name="alemao">ドイツ語</string>
 
-        <string name="teste">テスト</string>
+    <string name="teste">テスト</string>
+    <string name="zero">0</string>
+    <string name="tabelas_simbolo">🏆</string>
+
+    <string name="tabelas">順位表</string>
+
+    <string name="time">チーム</string>
+    <string name="pontos">勝点</string>
+    <string name="partidas_jogadas">試合</string>
+    <string name="vitorias">勝</string>
+    <string name="empates">分</string>
+    <string name="derrotas">敗</string>
+    <string name="gols_marcados">得点</string>
+    <string name="gols_contra">失点</string>
+    <string name="saldo_de_gols">得失差</string>
+
+    <string name="grupo_a">グループA</string>
+    <string name="grupo_b">グループB</string>
+    <string name="grupo_c">グループC</string>
+
+    <string name="primeiro_tabela">1</string>
+    <string name="segundo_tabela">2</string>
+    <string name="terceiro_tabela">3</string>
+    <string name="quarto_tabela">4</string>
+
+    <string name="mexico">メキシコ</string>
+    <string name="africa_sul">南アフリカ</string>
+    <string name="coreia_sul">韓国</string>
+    <string name="tchequia">チェコ</string>
+
+    <string name="canada">カナダ</string>
+    <string name="bosnia">ボスニア</string>
+    <string name="bosnia_longo">ボスニア・ヘルツェゴビナ</string>
+    <string name="catar">カタール</string>
+    <string name="suica">スイス</string>
+
+    <string name="brasil">ブラジル</string>
+    <string name="marrocos">モロッコ</string>
+    <string name="haiti">ハイチ</string>
+    <string name="escocia">スコットランド</string>
 
 </resources>
 

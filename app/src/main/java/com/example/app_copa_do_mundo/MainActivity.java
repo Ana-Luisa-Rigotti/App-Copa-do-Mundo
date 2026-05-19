@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         LinearLayout btnTabelas = findViewById(R.id.btn_tabelas);
 
         btnTabelas.setOnClickListener(v -> {
-            Intent intent = new Intent(MainActivity.this, tabelas.class);
+            Intent intent = new Intent(MainActivity.this, Tabelas.class);
             startActivity(intent);
         });
     }

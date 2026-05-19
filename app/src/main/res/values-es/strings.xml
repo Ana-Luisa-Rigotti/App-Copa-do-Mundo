@@ -18,6 +18,44 @@
 
     <string name="teste">prueba</string>
 
+    <string name="zero">0</string>
+    <string name="tabelas_simbolo">🏆</string>
+    <string name="tabelas">Tablas</string>
+
+    <string name="time">Equipo</string>
+    <string name="pontos">Pts</string>
+    <string name="partidas_jogadas">PJ</string>
+    <string name="vitorias">G</string>
+    <string name="empates">E</string>
+    <string name="derrotas">P</string>
+    <string name="gols_marcados">GF</string>
+    <string name="gols_contra">GC</string>
+    <string name="saldo_de_gols">DG</string>
+
+    <string name="grupo_a">Grupo A</string>
+    <string name="grupo_b">Grupo B</string>
+    <string name="grupo_c">Grupo C</string>
+
+    <string name="primeiro_tabela">1</string>
+    <string name="segundo_tabela">2</string>
+    <string name="terceiro_tabela">3</string>
+    <string name="quarto_tabela">4</string>
+
+    <string name="mexico">México</string>
+    <string name="africa_sul">Sudáfrica</string>
+    <string name="coreia_sul">Corea del Sur</string>
+    <string name="tchequia">Chequia</string>
+
+    <string name="canada">Canadá</string>
+    <string name="bosnia">Bosnia</string>
+    <string name="bosnia_longo">Bosnia y Herzegovina</string>
+    <string name="catar">Catar</string>
+    <string name="suica">Suiza</string>
+
+    <string name="brasil">Brasil</string>
+    <string name="marrocos">Marruecos</string>
+    <string name="haiti">Haití</string>
+    <string name="escocia">Escocia</string>
 </resources>
 
 

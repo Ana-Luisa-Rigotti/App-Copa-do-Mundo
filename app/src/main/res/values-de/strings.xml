@@ -17,5 +17,45 @@
     <string name="alemao">Deutsch</string>
 
     <string name="teste">Test</string>
+
+
+    <string name="tabelas">Tabellen</string>
+    <string name="zero">0</string>
+    <string name="tabelas_simbolo">🏆</string>
+
+    <string name="time">Team</string>
+    <string name="pontos">Pkt</string>
+    <string name="partidas_jogadas">SP</string>
+    <string name="vitorias">S</string>
+    <string name="empates">U</string>
+    <string name="derrotas">N</string>
+    <string name="gols_marcados">TF</string>
+    <string name="gols_contra">TG</string>
+    <string name="saldo_de_gols">TD</string>
+
+    <string name="grupo_a">Gruppe A</string>
+    <string name="grupo_b">Gruppe B</string>
+    <string name="grupo_c">Gruppe C</string>
+
+    <string name="primeiro_tabela">1</string>
+    <string name="segundo_tabela">2</string>
+    <string name="terceiro_tabela">3</string>
+    <string name="quarto_tabela">4</string>
+
+    <string name="mexico">Mexiko</string>
+    <string name="africa_sul">Südafrika</string>
+    <string name="coreia_sul">Südkorea</string>
+    <string name="tchequia">Tschechien</string>
+
+    <string name="canada">Kanada</string>
+    <string name="bosnia">Bosnien</string>
+    <string name="bosnia_longo">Bosnien und Herzegowina</string>
+    <string name="catar">Katar</string>
+    <string name="suica">Schweiz</string>
+
+    <string name="brasil">Brasilien</string>
+    <string name="marrocos">Marokko</string>
+    <string name="haiti">Haiti</string>
+    <string name="escocia">Schottland</string>
 </resources>
 

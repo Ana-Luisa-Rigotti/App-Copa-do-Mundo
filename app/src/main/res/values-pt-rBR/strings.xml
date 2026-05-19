@@ -16,8 +16,46 @@
     <string name="frances">Francês</string>
     <string name="alemao">Alemão</string>
 
-
     <string name="teste">teste</string>
+
+    <string name="zero">0</string>
+    <string name="tabelas_simbolo">🏆</string>
+    <string name="tabelas">Tabelas</string>
+
+    <string name="time">Time</string>
+    <string name="pontos">Pts</string>
+    <string name="partidas_jogadas">PJ</string>
+    <string name="vitorias">VIT</string>
+    <string name="empates">E</string>
+    <string name="derrotas">DER</string>
+    <string name="gols_marcados">GM</string>
+    <string name="gols_contra">GC</string>
+    <string name="saldo_de_gols">SG</string>
+
+    <string name="grupo_a">Grupo A</string>
+    <string name="grupo_b">Grupo B</string>
+    <string name="grupo_c">Grupo C</string>
+
+    <string name="primeiro_tabela">1</string>
+    <string name="segundo_tabela">2</string>
+    <string name="terceiro_tabela">3</string>
+    <string name="quarto_tabela">4</string>
+
+    <string name="mexico">México</string>
+    <string name="africa_sul">África do Sul</string>
+    <string name="coreia_sul">Coreia do Sul</string>
+    <string name="tchequia">Tchéquia</string>
+
+    <string name="canada">Canadá</string>
+    <string name="bosnia">Bósnia</string>
+    <string name="bosnia_longo">Bósnia e Herzegovina</string>
+    <string name="catar">Catar</string>
+    <string name="suica">Suíça</string>
+
+    <string name="brasil">Brasil</string>
+    <string name="marrocos">Marrocos</string>
+    <string name="haiti">Haiti</string>
+    <string name="escocia">Escócia</string>
 </resources>
 
 

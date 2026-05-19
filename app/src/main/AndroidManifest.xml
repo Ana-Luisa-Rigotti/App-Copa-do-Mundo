@@ -7,12 +7,12 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/img_logo"
-        android:label="@string/app_name"
+        android:label="@string/nome_do_app"
         android:roundIcon="@drawable/img_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Copa_do_Mundo">
         <activity
-            android:name=".tabelas"
+            android:name=".Tabelas"
             android:exported="true" />
         <activity
             android:name=".welcome"

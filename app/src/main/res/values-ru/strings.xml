@@ -17,6 +17,45 @@
     <string name="alemao">Немецкий</string>
 
     <string name="teste">тест</string>
+    <string name="zero">0</string>
+    <string name="tabelas_simbolo">🏆</string>
+
+    <string name="tabelas">Таблицы</string>
+
+    <string name="time">Команда</string>
+    <string name="pontos">О</string>
+    <string name="partidas_jogadas">И</string>
+    <string name="vitorias">В</string>
+    <string name="empates">Н</string>
+    <string name="derrotas">П</string>
+    <string name="gols_marcados">ЗМ</string>
+    <string name="gols_contra">ЗП</string>
+    <string name="saldo_de_gols">РМ</string>
+
+    <string name="grupo_a">Группа A</string>
+    <string name="grupo_b">Группа B</string>
+    <string name="grupo_c">Группа C</string>
+
+    <string name="primeiro_tabela">1</string>
+    <string name="segundo_tabela">2</string>
+    <string name="terceiro_tabela">3</string>
+    <string name="quarto_tabela">4</string>
+
+    <string name="mexico">Мексика</string>
+    <string name="africa_sul">ЮАР</string>
+    <string name="coreia_sul">Южная Корея</string>
+    <string name="tchequia">Чехия</string>
+
+    <string name="canada">Канада</string>
+    <string name="bosnia">Босния</string>
+    <string name="bosnia_longo">Босния и Герцеговина</string>
+    <string name="catar">Катар</string>
+    <string name="suica">Швейцария</string>
+
+    <string name="brasil">Бразилия</string>
+    <string name="marrocos">Марокко</string>
+    <string name="haiti">Гаити</string>
+    <string name="escocia">Шотландия</string>
 </resources>
 
 
