@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
     <string name="app_name">App_Copa_do_Mundo</string>
-
     <string name="nome_do_app">A Vitrine da Copa</string>
     <string name="descricao_nome">COPA DO MUNDO\n2026</string>
-
     <string name="selecione_idioma">Selecione o Idioma</string>
     <string name="portugues">Português</string>
     <string name="ingles">Inglês</string>
@@ -17,7 +14,6 @@
     <string name="alemao">Alemão</string>
 
     <string name="teste">teste</string>
-
     <string name="zero">0</string>
     <string name="tabelas_simbolo">🏆</string>
     <string name="tabelas">Tabelas</string>
@@ -73,7 +69,7 @@
 
     <string name="alemanha">Alemanha</string>
     <string name="curacao">Curaçao</string>
-    <string name="costa_marfim">C. do Marfim</string>
+    <string name="costa_marfim">Costa do Marfim</string>
     <string name="equador">Equador</string>
 
     <string name="holanda">Holanda</string>
@@ -112,6 +108,59 @@
     <string name="panama">Panamá</string>
 
     <string name="titulo_estadios">Estádios</string>
+    <string name="capacidade">Capacidade: %1$d</string>
+
+    <!-- Nomes dos Estádios -->
+    <string name="stadium_name_metlife">Estádio MetLife</string>
+    <string name="stadium_name_att">Estádio AT&amp;T</string>
+    <string name="stadium_name_sofi">Estádio SoFi</string>
+    <string name="stadium_name_hard_rock">Estádio Hard Rock</string>
+    <string name="stadium_name_lumen_field">Lumen Field</string>
+    <string name="stadium_name_levis">Estádio Levi\'s</string>
+    <string name="stadium_name_lincoln_financial">Lincoln Financial Field</string>
+    <string name="stadium_name_gillette">Estádio Gillette</string>
+    <string name="stadium_name_nrg">Estádio NRG</string>
+    <string name="stadium_name_arrowhead">Estádio Arrowhead</string>
+    <string name="stadium_name_mercedes_benz">Estádio Mercedes-Benz</string>
+    <string name="stadium_name_azteca">Estádio Azteca</string>
+    <string name="stadium_name_akron">Estádio Akron</string>
+    <string name="stadium_name_bbva">Estádio BBVA</string>
+    <string name="stadium_name_bmo_field">BMO Field</string>
+    <string name="stadium_name_bc_place">BC Place</string>
+
+    <!-- Localizações -->
+    <string name="stadium_loc_metlife">East Rutherford</string>
+    <string name="stadium_loc_att">Arlington</string>
+    <string name="stadium_loc_sofi">Inglewood</string>
+    <string name="stadium_loc_hard_rock">Miami Gardens</string>
+    <string name="stadium_loc_lumen_field">Seattle</string>
+    <string name="stadium_loc_levis">Santa Clara</string>
+    <string name="stadium_loc_lincoln_financial">Filadélfia</string>
+    <string name="stadium_loc_gillette">Foxborough</string>
+    <string name="stadium_loc_nrg">Houston</string>
+    <string name="stadium_loc_arrowhead">Kansas City</string>
+    <string name="stadium_loc_mercedes_benz">Atlanta</string>
+    <string name="stadium_loc_azteca">Cidade do México</string>
+    <string name="stadium_loc_akron">Guadalajara</string>
+    <string name="stadium_loc_bbva">Monterrey</string>
+    <string name="stadium_loc_bmo_field">Toronto</string>
+    <string name="stadium_loc_bc_place">Vancouver</string>
+
+    <!-- Descrições -->
+    <string name="stadium_desc_metlife">Localizado em New Jersey, é um dos maiores estádios da NFL e palco da final da Copa de 2026.</string>
+    <string name="stadium_desc_att">Uma maravilha tecnológica com um dos maiores telões do mundo e teto retrátil.</string>
+    <string name="stadium_desc_sofi">O estádio mais caro e moderno do mundo, localizado na região de Los Angeles.</string>
+    <string name="stadium_desc_hard_rock">Estádio multiuso icônico que já sediou seis Super Bowls.</string>
+    <string name="stadium_desc_lumen_field">Conhecido pela sua atmosfera vibrante e por ser o estádio mais barulhento da MLS/NFL.</string>
+    <string name="stadium_desc_levis">Um estádio sustentável e tecnológico no coração do Vale do Silício.</string>
+    <string name="stadium_desc_lincoln_financial">Um estádio moderno que utiliza energia solar e eólica para seu funcionamento.</string>
+    <string name="stadium_desc_gillette">Localizado próximo a Boston, é a casa histórica do New England Patriots.</string>
+    <string name="stadium_desc_nrg">Famoso por ser o primeiro estádio da NFL a possuir um teto retrátil.</string>
+    <string name="stadium_desc_arrowhead">Registrado no Guinness como o estádio aberto mais barulhento do planeta.</string>
+    <string name="stadium_desc_mercedes_benz">Destaque pela sua arquitetura futurista e teto que abre como uma lente de câmera.</string>
+    <string name="stadium_desc_azteca">O templo do futebol mundial, primeiro estádio a sediar três Copas do Mundo.</string>
+    <string name="stadium_desc_akron">Um dos estádios mais bonitos do México, conhecido por seu design em forma de vulcão.</string>
+    <string name="stadium_desc_bbva">Chamado de \"Gigante de Aço\", oferece uma vista espetacular das montanhas.</string>
+    <string name="stadium_desc_bmo_field">O principal estádio de futebol do Canadá, localizado na margem do Lago Ontário.</string>
+    <string name="stadium_desc_bc_place">Um estádio multiuso incrível com um sistema de teto retrátil sustentado por cabos.</string>
 </resources>
-
-

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
     <string name="app_name">App_Copa_do_Mundo</string>
-
-
-    <string name="nome_do_app">ワールドカップショーケ\nース</string>
+    <string name="nome_do_app">ワールドカップショーケース</string>
     <string name="descricao_nome">ワールドカップ\n2026</string>
-
     <string name="selecione_idioma">言語を選択</string>
     <string name="portugues">ポルトガル語</string>
     <string name="ingles">英語</string>
@@ -22,7 +18,6 @@
     <string name="tabelas_simbolo">🏆</string>
 
     <string name="tabelas">順位表</string>
-
     <string name="time">チーム</string>
     <string name="pontos">勝点</string>
     <string name="partidas_jogadas">試合</string>
@@ -65,16 +60,16 @@
     <string name="brasil">ブラジル</string>
     <string name="marrocos">モロッコ</string>
     <string name="haiti">ハイチ</string>
-    <string name="escocia">スコット</string>
+    <string name="escocia">スコットランド</string>
 
-    <string name="estados_unidos">米国</string>
+    <string name="estados_unidos">アメリカ</string>
     <string name="paraguai">パラグアイ</string>
-    <string name="australia">豪州</string>
+    <string name="australia">オーストラリア</string>
     <string name="turquia">トルコ</string>
 
     <string name="alemanha">ドイツ</string>
     <string name="curacao">キュラソー</string>
-    <string name="costa_marfim">コートジ</string>
+    <string name="costa_marfim">コートジボワール</string>
     <string name="equador">エクアドル</string>
 
     <string name="holanda">オランダ</string>
@@ -85,11 +80,11 @@
     <string name="belgica">ベルギー</string>
     <string name="egito">エジプト</string>
     <string name="ira">イラン</string>
-    <string name="nova_zelandia">NZ</string>
+    <string name="nova_zelandia">ニュージーランド</string>
 
     <string name="espanha">スペイン</string>
     <string name="cabo_verde">カーボベルデ</string>
-    <string name="arabia_saudita">サウジ</string>
+    <string name="arabia_saudita">サウジアラビア</string>
     <string name="uruguai">ウルグアイ</string>
 
     <string name="franca">フランス</string>
@@ -103,8 +98,8 @@
     <string name="jordania">ヨルダン</string>
 
     <string name="portugal">ポルトガル</string>
-    <string name="rd_congo">DRコンゴ</string>
-    <string name="uzbequistao">ウズベク</string>
+    <string name="rd_congo">コンゴ民主共和国</string>
+    <string name="uzbequistao">ウズベキスタン</string>
     <string name="colombia">コロンビア</string>
 
     <string name="inglaterra">イングランド</string>
@@ -113,7 +108,59 @@
     <string name="panama">パナマ</string>
 
     <string name="titulo_estadios">スタジアム</string>
+    <string name="capacidade">収容人数: %1$d</string>
 
+    <!-- Stadium Names -->
+    <string name="stadium_name_metlife">メットライフ・スタジアム</string>
+    <string name="stadium_name_att">AT&amp;Tスタジアム</string>
+    <string name="stadium_name_sofi">SoFiスタジアム</string>
+    <string name="stadium_name_hard_rock">ハードロック・スタジアム</string>
+    <string name="stadium_name_lumen_field">ルーメン・フィールド</string>
+    <string name="stadium_name_levis">リーバイス・スタジアム</string>
+    <string name="stadium_name_lincoln_financial">リンカーン・フィナンシャル・フィールド</string>
+    <string name="stadium_name_gillette">ジレット・スタジアム</string>
+    <string name="stadium_name_nrg">NRGスタジアム</string>
+    <string name="stadium_name_arrowhead">アローヘッド・スタジアム</string>
+    <string name="stadium_name_mercedes_benz">メルセデス・ベンツ・スタジアム</string>
+    <string name="stadium_name_azteca">エスタディオ・アステカ</string>
+    <string name="stadium_name_akron">エスタディオ・アクロン</string>
+    <string name="stadium_name_bbva">エスタディオBBVA</string>
+    <string name="stadium_name_bmo_field">BMOフィールド</string>
+    <string name="stadium_name_bc_place">BCプレイス</string>
+
+    <!-- Stadium Locations -->
+    <string name="stadium_loc_metlife">イーストラザフォード</string>
+    <string name="stadium_loc_att">アーリントン</string>
+    <string name="stadium_loc_sofi">イングルウッド</string>
+    <string name="stadium_loc_hard_rock">マイアミガーデンズ</string>
+    <string name="stadium_loc_lumen_field">シアトル</string>
+    <string name="stadium_loc_levis">サンタクララ</string>
+    <string name="stadium_loc_lincoln_financial">フィラデルフィア</string>
+    <string name="stadium_loc_gillette">フォックスボロ</string>
+    <string name="stadium_loc_nrg">ヒューストン</string>
+    <string name="stadium_loc_arrowhead">カンザスシティ</string>
+    <string name="stadium_loc_mercedes_benz">アトランタ</string>
+    <string name="stadium_loc_azteca">メキシコシティ</string>
+    <string name="stadium_loc_akron">グアダラハラ</string>
+    <string name="stadium_loc_bbva">モンテレイ</string>
+    <string name="stadium_loc_bmo_field">トロント</string>
+    <string name="stadium_loc_bc_place">バンクーバー</string>
+
+    <!-- Stadium Descriptions -->
+    <string name="stadium_desc_metlife">ニュージャージー州に位置し、NFL最大級のスタジアムの一つで、2026年ワールドカップ決勝の会場です。</string>
+    <string name="stadium_desc_att">世界最大級のビデオボードと開閉式屋根を備えた技術の結晶です。</string>
+    <string name="stadium_desc_sofi">ロサンゼルス近郊に位置する、世界で最も高価で現代的なスタジアムです。</string>
+    <string name="stadium_desc_hard_rock">スーパーボウルを6回開催した、象徴的な多目的スタジアムです。</string>
+    <string name="stadium_desc_lumen_field">活気ある雰囲気と、MLS/NFLで最も騒がしいスタジアムとして知られています。</string>
+    <string name="stadium_desc_levis">シリコンバレーの中心に位置する、持続可能でハイテクなスタジアムです。</string>
+    <string name="stadium_desc_lincoln_financial">太陽光と風力エネルギーを利用して運営されている現代的なスタジアムです。</string>
+    <string name="stadium_desc_gillette">ボストン近郊に位置し、ニューイングランド・ペイトリオッツの歴史的な本拠地です。</string>
+    <string name="stadium_desc_nrg">NFLで初めて開閉式屋根を採用したスタジアムとして有名です。</string>
+    <string name="stadium_desc_arrowhead">地球上で最も騒がしい屋外スタジアムとしてギネスに記録されています。</string>
+    <string name="stadium_desc_mercedes_benz">未来的な建築と、カメラのレンズのように開く屋根が特徴です。</string>
+    <string name="stadium_desc_azteca">世界サッカーの聖地であり、ワールドカップを3回開催する初めてのスタジアムです。</string>
+    <string name="stadium_desc_akron">メキシコで最も美しいスタジアムの一つで、火山のようなデザインで知られています。</string>
+    <string name="stadium_desc_bbva">「鉄の巨人」と呼ばれ、山々の壮大な景色を楽しむことができます。</string>
+    <string name="stadium_desc_bmo_field">オンタリオ湖畔に位置する、カナダ最高のサッカー専用スタジアムです。</string>
+    <string name="stadium_desc_bc_place">ケーブル支持式の開閉式屋根システムを備えた、素晴らしい多目的スタジアムです。</string>
 </resources>
-
-

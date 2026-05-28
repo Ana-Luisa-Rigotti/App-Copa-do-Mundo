@@ -112,6 +112,60 @@
     <string name="panama">Panama</string>
 
     <string name="titulo_estadios">Stadiums</string>
+    <string name="capacidade">Capacity: %1$d</string>
 
+    <!-- Stadium Names -->
+    <string name="stadium_name_metlife">MetLife Stadium</string>
+    <string name="stadium_name_att">AT&amp;T Stadium</string>
+    <string name="stadium_name_sofi">SoFi Stadium</string>
+    <string name="stadium_name_hard_rock">Hard Rock Stadium</string>
+    <string name="stadium_name_lumen_field">Lumen Field</string>
+    <string name="stadium_name_levis">Levi\'s Stadium</string>
+    <string name="stadium_name_lincoln_financial">Lincoln Financial Field</string>
+    <string name="stadium_name_gillette">Gillette Stadium</string>
+    <string name="stadium_name_nrg">NRG Stadium</string>
+    <string name="stadium_name_arrowhead">Arrowhead Stadium</string>
+    <string name="stadium_name_mercedes_benz">Mercedes-Benz Stadium</string>
+    <string name="stadium_name_azteca">Estadio Azteca</string>
+    <string name="stadium_name_akron">Estadio Akron</string>
+    <string name="stadium_name_bbva">Estadio BBVA</string>
+    <string name="stadium_name_bmo_field">BMO Field</string>
+    <string name="stadium_name_bc_place">BC Place</string>
+
+    <!-- Stadium Locations -->
+    <string name="stadium_loc_metlife">East Rutherford</string>
+    <string name="stadium_loc_att">Arlington</string>
+    <string name="stadium_loc_sofi">Inglewood</string>
+    <string name="stadium_loc_hard_rock">Miami Gardens</string>
+    <string name="stadium_loc_lumen_field">Seattle</string>
+    <string name="stadium_loc_levis">Santa Clara</string>
+    <string name="stadium_loc_lincoln_financial">Philadelphia</string>
+    <string name="stadium_loc_gillette">Foxborough</string>
+    <string name="stadium_loc_nrg">Houston</string>
+    <string name="stadium_loc_arrowhead">Kansas City</string>
+    <string name="stadium_loc_mercedes_benz">Atlanta</string>
+    <string name="stadium_loc_azteca">Mexico City</string>
+    <string name="stadium_loc_akron">Guadalajara</string>
+    <string name="stadium_loc_bbva">Monterrey</string>
+    <string name="stadium_loc_bmo_field">Toronto</string>
+    <string name="stadium_loc_bc_place">Vancouver</string>
+
+    <!-- Stadium Descriptions -->
+    <string name="stadium_desc_metlife">Located in New Jersey, it is one of the largest NFL stadiums and the site of the 2026 World Cup final.</string>
+    <string name="stadium_desc_att">A technological marvel with one of the largest video boards in the world and a retractable roof.</string>
+    <string name="stadium_desc_sofi">The most expensive and modern stadium in the world, located in the Los Angeles region.</string>
+    <string name="stadium_desc_hard_rock">Iconic multi-purpose stadium that has hosted six Super Bowls.</string>
+    <string name="stadium_desc_lumen_field">Known for its vibrant atmosphere and for being the loudest MLS/NFL stadium.</string>
+    <string name="stadium_desc_levis">A sustainable and technological stadium in the heart of Silicon Valley.</string>
+    <string name="stadium_desc_lincoln_financial">A modern stadium that uses solar and wind energy for its operation.</string>
+    <string name="stadium_desc_gillette">Located near Boston, it is the historic home of the New England Patriots.</string>
+    <string name="stadium_desc_nrg">Famous for being the first NFL stadium to have a retractable roof.</string>
+    <string name="stadium_desc_arrowhead">Recorded in Guinness as the loudest open stadium on the planet.</string>
+    <string name="stadium_desc_mercedes_benz">Highlight for its futuristic architecture and roof that opens like a camera lens.</string>
+    <string name="stadium_desc_azteca">The temple of world football, the first stadium to host three World Cups.</string>
+    <string name="stadium_desc_akron">One of Mexico\'s most beautiful stadiums, known for its volcano-shaped design.</string>
+    <string name="stadium_desc_bbva">Called the \"Steel Giant\", it offers a spectacular view of the mountains.</string>
+    <string name="stadium_desc_bmo_field">Canada\'s premier soccer stadium, located on the shore of Lake Ontario.</string>
+    <string name="stadium_desc_bc_place">An incredible multi-purpose stadium with a cable-supported retractable roof system.</string>
 
 </resources>

@@ -16,9 +16,9 @@ import java.util.ArrayList;
 public class EstadioAdapter extends RecyclerView.Adapter<EstadioAdapter.EstadioViewHolder> {
 
     private Context context;
-    private ArrayList<Estadio> listaEstadios;
+    private ArrayList<EstadioPojo> listaEstadios;
 
-    public EstadioAdapter(Context context, ArrayList<Estadio> listaEstadios) {
+    public EstadioAdapter(Context context, ArrayList<EstadioPojo> listaEstadios) {
         this.context = context;
         this.listaEstadios = listaEstadios;
     }
@@ -26,27 +26,31 @@ public class EstadioAdapter extends RecyclerView.Adapter<EstadioAdapter.EstadioV
     @NonNull
     @Override
     public EstadioViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        // Este metodo cria a visualização de cada item da lista
         View item = LayoutInflater.from(context).inflate(R.layout.item_estadio, parent, false);
         return new EstadioViewHolder(item);
     }
 
     @Override
     public void onBindViewHolder(@NonNull EstadioViewHolder holder, int position) {
-        Estadio estadio = listaEstadios.get(position);
+        EstadioPojo estadio = listaEstadios.get(position);
 
-        holder.txtNome.setText(estadio.getNome());
-        holder.txtCidade.setText(estadio.getCidade());
+        // Usa getTraducao para mostrar o nome e cidade traduzidos na lista
+        holder.txtNome.setText(getTraducao(estadio.getNome()));
+        holder.txtCidade.setText(getTraducao(estadio.getLocal()));
 
         holder.cardEstadio.setOnClickListener(v -> {
             Intent intent = new Intent(context, DetalheEstadio.class);
-
-            intent.putExtra("nome", estadio.getNome());
-            intent.putExtra("cidade", estadio.getCidade());
-            intent.putExtra("imagem", estadio.getImagem());
-            intent.putExtra("descricao", estadio.getDescricao());
-
+            intent.putExtra("id_estadio", estadio.getId()); // Passa o ID para a tela de detalhe
             context.startActivity(intent);
         });
+    }
+
+    // Busca a tradução baseada na chave vinda do banco de dados
+    private String getTraducao(String chave) {
+        if (chave == null || chave.isEmpty()) return "";
+        int resId = context.getResources().getIdentifier(chave, "string", context.getPackageName());
+        return resId != 0 ? context.getString(resId) : chave;
     }
 
     @Override

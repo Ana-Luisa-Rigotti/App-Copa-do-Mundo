@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
     <string name="app_name">App_Copa_do_Mundo</string>
-
     <string name="nome_do_app">Витрина чемпионата\nмира</string>
     <string name="descricao_nome">ЧЕМПИОНАТ МИРА\n2026</string>
-
     <string name="selecione_idioma">Выберите язык</string>
     <string name="portugues">Португальский</string>
     <string name="ingles">Английский</string>
@@ -21,7 +18,6 @@
     <string name="tabelas_simbolo">🏆</string>
 
     <string name="tabelas">Таблицы</string>
-
     <string name="time">Команда</string>
     <string name="pontos">О</string>
     <string name="partidas_jogadas">И</string>
@@ -112,6 +108,59 @@
     <string name="panama">Панама</string>
 
     <string name="titulo_estadios">Стадионы</string>
+    <string name="capacidade">Вместимость: %1$d</string>
+
+    <!-- Stadium Names -->
+    <string name="stadium_name_metlife">Метлайф-стэдиум</string>
+    <string name="stadium_name_att">Эй-ти-энд-ти Стэдиум</string>
+    <string name="stadium_name_sofi">Соу-Фай Стэдиум</string>
+    <string name="stadium_name_hard_rock">Хард Рок Стэдиум</string>
+    <string name="stadium_name_lumen_field">Люмен Филд</string>
+    <string name="stadium_name_levis">Ливайс Стэдиум</string>
+    <string name="stadium_name_lincoln_financial">Линкольн Файненшел Филд</string>
+    <string name="stadium_name_gillette">Джиллетт Стэдиум</string>
+    <string name="stadium_name_nrg">Эн-ар-джи Стэдиум</string>
+    <string name="stadium_name_arrowhead">Эрроухед-стэдиум</string>
+    <string name="stadium_name_mercedes_benz">Мерседес-Бенц Стэдиум</string>
+    <string name="stadium_name_azteca">Ацтека</string>
+    <string name="stadium_name_akron">Акрон</string>
+    <string name="stadium_name_bbva">Би-би-ви-эй</string>
+    <string name="stadium_name_bmo_field">Бимо Филд</string>
+    <string name="stadium_name_bc_place">Би-Си Плэйс</string>
+
+    <!-- Stadium Locations -->
+    <string name="stadium_loc_metlife">Ист-Ратерфорд</string>
+    <string name="stadium_loc_att">Арлингтон</string>
+    <string name="stadium_loc_sofi">Инглвуд</string>
+    <string name="stadium_loc_hard_rock">Майами-Гарденс</string>
+    <string name="stadium_loc_lumen_field">Сиэтл</string>
+    <string name="stadium_loc_levis">Санта-Клара</string>
+    <string name="stadium_loc_lincoln_financial">Филадельфия</string>
+    <string name="stadium_loc_gillette">Фоксборо</string>
+    <string name="stadium_loc_nrg">Хьюстон</string>
+    <string name="stadium_loc_arrowhead">Канзас-Сити</string>
+    <string name="stadium_loc_mercedes_benz">Атланта</string>
+    <string name="stadium_loc_azteca">Мехико</string>
+    <string name="stadium_loc_akron">Гвадалахара</string>
+    <string name="stadium_loc_bbva">Монтеррей</string>
+    <string name="stadium_loc_bmo_field">Торонто</string>
+    <string name="stadium_loc_bc_place">Ванкувер</string>
+
+    <!-- Stadium Descriptions -->
+    <string name="stadium_desc_metlife">Расположен в Нью-Джерси, один из крупнейших стадионов НФЛ, место проведения финала ЧМ-2026.</string>
+    <string name="stadium_desc_att">Технологическое чудо с одним из крупнейших видеоэкранов в мире и раздвижной крышей.</string>
+    <string name="stadium_desc_sofi">Самый дорогой и современный стадион в мире, расположен в районе Лос-Анджелеса.</string>
+    <string name="stadium_desc_hard_rock">Культовый многофункциональный стадион, принимавший шесть Супербоулов.</string>
+    <string name="stadium_desc_lumen_field">Известен своей живой атмосферой и статусом самого шумного стадиона MLS/НФЛ.</string>
+    <string name="stadium_desc_levis">Экологичный и технологичный стадион в сердце Кремниевой долины.</string>
+    <string name="stadium_desc_lincoln_financial">Современный стадион, использующий солнечную и ветровую энергию для своей работы.</string>
+    <string name="stadium_desc_gillette">Расположен недалеко от Бостона, историческая домашняя арена «Нью-Ингленд Пэтриотс».</string>
+    <string name="stadium_desc_nrg">Знаменит тем, что стал первым стадионом НФЛ с раздвижной крышей.</string>
+    <string name="stadium_desc_arrowhead">Занесен в Книгу рекордов Гиннесса как самый шумный открытый стадион на планете.</string>
+    <string name="stadium_desc_mercedes_benz">Выделяется футуристической архитектурой и крышей, открывающейся как объектив камеры.</string>
+    <string name="stadium_desc_azteca">Храм мирового футбола, первый стадион, принимающий три чемпионата мира.</string>
+    <string name="stadium_desc_akron">Один из красивейших стадионов Мексики, известный своим дизайном в форме вулкана.</string>
+    <string name="stadium_desc_bbva">Называемый «Стальным гигантом», он предлагает впечатляющий вид на горы.</string>
+    <string name="stadium_desc_bmo_field">Главный футбольный стадион Канады, расположенный на берегу озера Онтарио.</string>
+    <string name="stadium_desc_bc_place">Невероятный многофункциональный стадион с системой раздвижной крыши на тросах.</string>
 </resources>
-
-
