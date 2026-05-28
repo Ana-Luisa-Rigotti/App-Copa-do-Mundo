@@ -35,6 +35,15 @@
     <string name="grupo_a">Группа A</string>
     <string name="grupo_b">Группа B</string>
     <string name="grupo_c">Группа C</string>
+    <string name="grupo_d">Группа D</string>
+    <string name="grupo_e">Группа E</string>
+    <string name="grupo_f">Группа F</string>
+    <string name="grupo_g">Группа G</string>
+    <string name="grupo_h">Группа H</string>
+    <string name="grupo_i">Группа I</string>
+    <string name="grupo_j">Группа J</string>
+    <string name="grupo_k">Группа K</string>
+    <string name="grupo_l">Группа L</string>
 
     <string name="primeiro_tabela">1</string>
     <string name="segundo_tabela">2</string>
@@ -56,6 +65,53 @@
     <string name="marrocos">Марокко</string>
     <string name="haiti">Гаити</string>
     <string name="escocia">Шотландия</string>
+
+    <string name="estados_unidos">США</string>
+    <string name="paraguai">Парагвай</string>
+    <string name="australia">Австралия</string>
+    <string name="turquia">Турция</string>
+
+    <string name="alemanha">Германия</string>
+    <string name="curacao">Кюрасао</string>
+    <string name="costa_marfim">Кот-д’Ивуар</string>
+    <string name="equador">Эквадор</string>
+
+    <string name="holanda">Нидерланды</string>
+    <string name="japao">Япония</string>
+    <string name="suecia">Швеция</string>
+    <string name="tunisia">Тунис</string>
+
+    <string name="belgica">Бельгия</string>
+    <string name="egito">Египет</string>
+    <string name="ira">Иран</string>
+    <string name="nova_zelandia">Н. Зеландия</string>
+
+    <string name="espanha">Испания</string>
+    <string name="cabo_verde">Кабо-Верде</string>
+    <string name="arabia_saudita">Сауд. Аравия</string>
+    <string name="uruguai">Уругвай</string>
+
+    <string name="franca">Франция</string>
+    <string name="senegal">Сенегал</string>
+    <string name="iraque">Ирак</string>
+    <string name="noruega">Норвегия</string>
+
+    <string name="argentina">Аргентина</string>
+    <string name="argelia">Алжир</string>
+    <string name="austria">Австрия</string>
+    <string name="jordania">Иордания</string>
+
+    <string name="portugal">Португалия</string>
+    <string name="rd_congo">ДР Конго</string>
+    <string name="uzbequistao">Узбекистан</string>
+    <string name="colombia">Колумбия</string>
+
+    <string name="inglaterra">Англия</string>
+    <string name="croacia">Хорватия</string>
+    <string name="gana">Гана</string>
+    <string name="panama">Панама</string>
+
+    <string name="titulo_estadios">Стадионы</string>
 </resources>
 
 

@@ -34,12 +34,22 @@
     <string name="grupo_a">Group A</string>
     <string name="grupo_b">Group B</string>
     <string name="grupo_c">Group C</string>
+    <string name="grupo_d">Group D</string>
+    <string name="grupo_e">Group E</string>
+    <string name="grupo_f">Group F</string>
+    <string name="grupo_g">Group G</string>
+    <string name="grupo_h">Group H</string>
+    <string name="grupo_i">Group I</string>
+    <string name="grupo_j">Group J</string>
+    <string name="grupo_k">Group K</string>
+    <string name="grupo_l">Group L</string>
+
 
     <string name="primeiro_tabela">1</string>
     <string name="segundo_tabela">2</string>
     <string name="terceiro_tabela">3</string>
     <string name="quarto_tabela">4</string>
-    
+
     <string name="mexico">Mexico</string>
     <string name="africa_sul">South Africa</string>
     <string name="coreia_sul">South Korea</string>
@@ -50,9 +60,58 @@
     <string name="bosnia_longo">Bosnia and Herzegovina</string>
     <string name="catar">Qatar</string>
     <string name="suica">Switzerland</string>
-    
+
     <string name="brasil">Brazil</string>
     <string name="marrocos">Morocco</string>
     <string name="haiti">Haiti</string>
     <string name="escocia">Scotland</string>
+
+    <string name="estados_unidos">United States</string>
+    <string name="paraguai">Paraguay</string>
+    <string name="australia">Australia</string>
+    <string name="turquia">Turkey</string>
+
+    <string name="alemanha">Germany</string>
+    <string name="curacao">Curaçao</string>
+    <string name="costa_marfim">Ivory Coast</string>
+    <string name="equador">Ecuador</string>
+
+    <string name="holanda">Netherlands</string>
+    <string name="japao">Japan</string>
+    <string name="suecia">Sweden</string>
+    <string name="tunisia">Tunisia </string>
+
+    <string name="belgica">Belgium</string>
+    <string name="egito">Egypt</string>
+    <string name="ira">Iran</string>
+    <string name="nova_zelandia">New Zealand</string>
+
+    <string name="espanha">Spain</string>
+    <string name="cabo_verde">Cabo Verde</string>
+    <string name="arabia_saudita">Saudi Arabia</string>
+    <string name="uruguai">Uruguay</string>
+
+    <string name="franca">France</string>
+    <string name="senegal">Senegal</string>
+    <string name="iraque">Iraq</string>
+    <string name="noruega">Norway</string>
+
+    <string name="argentina">Argentina</string>
+    <string name="argelia">Algeria</string>
+    <string name="austria">Austria</string>
+    <string name="jordania">Jordan</string>
+
+    <string name="portugal">Portugal</string>
+    <string name="rd_congo">DR Congo</string>
+    <string name="uzbequistao">Uzbekistan</string>
+    <string name="colombia">Colombia</string>
+
+    <string name="inglaterra">England</string>
+    <string name="croacia">Croatia</string>
+    <string name="gana">Ghana</string>
+    <string name="panama">Panama</string>
+
+    <string name="titulo_estadios">Stadiums</string>
+
+
 </resources>

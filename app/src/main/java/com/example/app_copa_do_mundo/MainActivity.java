@@ -14,11 +14,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         LinearLayout btnTabelas = findViewById(R.id.btn_tabelas);
+        LinearLayout btnEstadios = findViewById(R.id.btnEstadios);
+
 
         btnTabelas.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, Tabelas.class);
             startActivity(intent);
         });
+
+        btnEstadios.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SelecaoEstadios.class);
+            startActivity(intent);
+        });
+
     }
 
 }

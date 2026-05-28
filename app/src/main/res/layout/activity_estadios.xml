@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tabelas"
+    tools:context=".Estadios"
     android:orientation="vertical">
 
     <LinearLayout
@@ -47,8 +48,8 @@
 
         </LinearLayout>
 
-    </LinearLayout>
 
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -62,12 +63,13 @@
             android:layout_height="wrap_content"
             android:background="@drawable/forma_arredondada"
             android:backgroundTint="@color/cor_fundo_tabelas_nome"
-            android:gravity="center">
+            android:gravity="center"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tabelas"
+                android:text="@string/titulo_estadios"
                 android:layout_marginTop="7dp"
                 android:layout_marginEnd="7dp"
                 android:layout_marginBottom="7dp"
@@ -77,12 +79,25 @@
 
             </TextView>
 
+            <TextView
+                android:id="@+id/txt_titulo_pais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/estados_unidos"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginStart="7dp">
+
+            </TextView>
+
         </LinearLayout>
 
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerTabela"
+        android:id="@+id/recyclerEstadios"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

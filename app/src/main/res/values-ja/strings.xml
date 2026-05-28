@@ -36,6 +36,15 @@
     <string name="grupo_a">グループA</string>
     <string name="grupo_b">グループB</string>
     <string name="grupo_c">グループC</string>
+    <string name="grupo_d">グループD</string>
+    <string name="grupo_e">グループE</string>
+    <string name="grupo_f">グループF</string>
+    <string name="grupo_g">グループG</string>
+    <string name="grupo_h">グループH</string>
+    <string name="grupo_i">グループI</string>
+    <string name="grupo_j">グループJ</string>
+    <string name="grupo_k">グループK</string>
+    <string name="grupo_l">グループL</string>
 
     <string name="primeiro_tabela">1</string>
     <string name="segundo_tabela">2</string>
@@ -56,7 +65,54 @@
     <string name="brasil">ブラジル</string>
     <string name="marrocos">モロッコ</string>
     <string name="haiti">ハイチ</string>
-    <string name="escocia">スコットランド</string>
+    <string name="escocia">スコット</string>
+
+    <string name="estados_unidos">米国</string>
+    <string name="paraguai">パラグアイ</string>
+    <string name="australia">豪州</string>
+    <string name="turquia">トルコ</string>
+
+    <string name="alemanha">ドイツ</string>
+    <string name="curacao">キュラソー</string>
+    <string name="costa_marfim">コートジ</string>
+    <string name="equador">エクアドル</string>
+
+    <string name="holanda">オランダ</string>
+    <string name="japao">日本</string>
+    <string name="suecia">スウェーデン</string>
+    <string name="tunisia">チュニジア</string>
+
+    <string name="belgica">ベルギー</string>
+    <string name="egito">エジプト</string>
+    <string name="ira">イラン</string>
+    <string name="nova_zelandia">NZ</string>
+
+    <string name="espanha">スペイン</string>
+    <string name="cabo_verde">カーボベルデ</string>
+    <string name="arabia_saudita">サウジ</string>
+    <string name="uruguai">ウルグアイ</string>
+
+    <string name="franca">フランス</string>
+    <string name="senegal">セネガル</string>
+    <string name="iraque">イラク</string>
+    <string name="noruega">ノルウェー</string>
+
+    <string name="argentina">アルゼンチン</string>
+    <string name="argelia">アルジェリア</string>
+    <string name="austria">オーストリア</string>
+    <string name="jordania">ヨルダン</string>
+
+    <string name="portugal">ポルトガル</string>
+    <string name="rd_congo">DRコンゴ</string>
+    <string name="uzbequistao">ウズベク</string>
+    <string name="colombia">コロンビア</string>
+
+    <string name="inglaterra">イングランド</string>
+    <string name="croacia">クロアチア</string>
+    <string name="gana">ガーナ</string>
+    <string name="panama">パナマ</string>
+
+    <string name="titulo_estadios">スタジアム</string>
 
 </resources>
 

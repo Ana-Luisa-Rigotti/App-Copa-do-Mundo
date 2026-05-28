@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Copa_do_Mundo">
         <activity
+            android:name=".DetalheEstadio"
+            android:exported="true" />
+
+        <activity android:name=".Estadios"
+            android:exported="true"/>
+
+        <activity
+            android:name=".SelecaoEstadios"
+            android:exported="true" />
+        <activity
             android:name=".Tabelas"
             android:exported="true" />
         <activity
@@ -28,8 +38,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -35,6 +35,15 @@
     <string name="grupo_a">Grupo A</string>
     <string name="grupo_b">Grupo B</string>
     <string name="grupo_c">Grupo C</string>
+    <string name="grupo_d">Grupo D</string>
+    <string name="grupo_e">Grupo E</string>
+    <string name="grupo_f">Grupo F</string>
+    <string name="grupo_g">Grupo G</string>
+    <string name="grupo_h">Grupo H</string>
+    <string name="grupo_i">Grupo I</string>
+    <string name="grupo_j">Grupo J</string>
+    <string name="grupo_k">Grupo K</string>
+    <string name="grupo_l">Grupo L</string>
 
     <string name="primeiro_tabela">1</string>
     <string name="segundo_tabela">2</string>
@@ -56,6 +65,53 @@
     <string name="marrocos">Marruecos</string>
     <string name="haiti">Haití</string>
     <string name="escocia">Escocia</string>
+
+    <string name="estados_unidos">EE.UU</string>
+    <string name="paraguai">Paraguay</string>
+    <string name="australia">Australia</string>
+    <string name="turquia">Turquía</string>
+
+    <string name="alemanha">Alemania</string>
+    <string name="curacao">Curazao</string>
+    <string name="costa_marfim">C. de Marfil</string>
+    <string name="equador">Ecuador</string>
+
+    <string name="holanda">Países Bajos</string>
+    <string name="japao">Japón</string>
+    <string name="suecia">Suecia</string>
+    <string name="tunisia">Túnez</string>
+
+    <string name="belgica">Bélgica</string>
+    <string name="egito">Egipto</string>
+    <string name="ira">Irán</string>
+    <string name="nova_zelandia">Nueva Zelanda</string>
+
+    <string name="espanha">España</string>
+    <string name="cabo_verde">Cabo Verde</string>
+    <string name="arabia_saudita">Arabia Saudita</string>
+    <string name="uruguai">Uruguay</string>
+
+    <string name="franca">Francia</string>
+    <string name="senegal">Senegal</string>
+    <string name="iraque">Irak</string>
+    <string name="noruega">Noruega</string>
+
+    <string name="argentina">Argentina</string>
+    <string name="argelia">Argelia</string>
+    <string name="austria">Austria</string>
+    <string name="jordania">Jordania</string>
+
+    <string name="portugal">Portugal</string>
+    <string name="rd_congo">RD del Congo</string>
+    <string name="uzbequistao">Uzbekistán</string>
+    <string name="colombia">Colombia</string>
+
+    <string name="inglaterra">Inglaterra</string>
+    <string name="croacia">Croacia</string>
+    <string name="gana">Ghana</string>
+    <string name="panama">Panamá</string>
+
+    <string name="titulo_estadios">Estadios</string>
 </resources>
 
 
