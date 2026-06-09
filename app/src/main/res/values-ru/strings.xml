@@ -2,7 +2,8 @@
 <resources>
     <string name="app_name">App_Copa_do_Mundo</string>
     <string name="nome_do_app">Витрина чемпионата\nмира</string>
-    <string name="descricao_nome">ЧЕМПИОНАТ МИРА\n2026</string>
+    <string name="descricao_nome">ЧЕМПИОНАТ МИРА</string>
+    <string name="ano_copa">2026</string>
     <string name="selecione_idioma">Выберите язык</string>
     <string name="portugues">Португальский</string>
     <string name="ingles">Английский</string>

@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.App_Copa_do_Mundo" parent="Theme.Material3.DayNight.NoActionBar">
 
-        <item name="android:statusBarColor">@color/cor_banner_superior_start</item>
+        <item name="android:statusBarColor">@color/cor_fundo_main</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/cor_fundo_main">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@drawable/gradiente_banner_superior"
+        android:background="@color/cor_banner_superior"
         android:orientation="horizontal"
         android:gravity="center">
 
@@ -16,7 +18,8 @@
             android:id="@+id/img_logo_id"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/img_logo" />
+            android:src="@drawable/img_logo"
+            app:tint="@color/logo" />
 
         <LinearLayout
             android:id="@+id/display_nome"
@@ -32,7 +35,8 @@
                 android:text="@string/nome_do_app"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="@color/cor_textos_padrao"/>
 
             <TextView
                 android:id="@+id/descricao_nome"
@@ -40,75 +44,113 @@
                 android:layout_height="wrap_content"
                 android:text="@string/descricao_nome"
                 android:textSize="16sp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="@color/cor_textos_padrao"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ano_copa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/vermelho_destaque">
+
+            </TextView>
+
 
         </LinearLayout>
 
 
     </LinearLayout>
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="20dp">
-        <TextView
-            android:id="@+id/txt_nome_estadio_detalhe"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text="Nome do estádio"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/txt_cidade_estadio_detalhe"
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            android:gravity="center"
-            android:text="Cidade"
-            android:textSize="18sp" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="-500dp"
+            android:src="@drawable/fundo_mapa_mundi"
+            android:scaleType="fitCenter"
+            android:textColor="@color/cor_textos_padrao"/>
 
-        <TextView
-            android:id="@+id/txt_capacidade_estadio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
-            android:text="capacidade"
-            android:textSize="16sp"
-            android:lineSpacingExtra="4dp" />
+
+
 
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:layout_marginTop="15dp">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:id="@+id/txt_nome_estadio_detalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Nome do estádio"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/cor_textos_padrao"/>
 
-            <ImageView
-                android:id="@+id/img_estadio_detalhe"
-                android:layout_width="380dp"
-                android:layout_height="250dp"
-                android:background="@drawable/forma_arredondada">
+            <TextView
+                android:id="@+id/txt_cidade_estadio_detalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:gravity="center"
+                android:text="Cidade"
+                android:textSize="18sp"
+                android:textColor="@color/cor_textos_padrao"/>
 
-            </ImageView>
+            <TextView
+                android:id="@+id/txt_capacidade_estadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="capacidade"
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp"
+                android:textColor="@color/cor_textos_padrao"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/img_estadio_detalhe"
+                    android:layout_width="380dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/forma_arredondada">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_descricao_estadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="Descrição do estádio"
+                android:textSize="16sp"
+                android:lineSpacingExtra="4dp" />
+
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/txt_descricao_estadio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="22dp"
-            android:text="Descrição do estádio"
-            android:textSize="16sp"
-            android:lineSpacingExtra="4dp" />
+
+    </FrameLayout>
 
 
-    </LinearLayout>
 
 </LinearLayout>

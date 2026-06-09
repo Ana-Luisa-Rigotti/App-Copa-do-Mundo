@@ -2,7 +2,8 @@
 <resources>
     <string name="app_name">App_Copa_do_Mundo</string>
     <string name="nome_do_app">La Vitrine de la Coupe</string>
-    <string name="descricao_nome">COUPE DU MONDE\n2026</string>
+    <string name="descricao_nome">COUPE DU MONDE</string>
+    <string name="ano_copa">2026</string>
     <string name="selecione_idioma">Sélectionnez la langue</string>
     <string name="portugues">Portugais</string>
     <string name="ingles">Anglais</string>

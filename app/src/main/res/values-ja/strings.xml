@@ -2,7 +2,8 @@
 <resources>
     <string name="app_name">App_Copa_do_Mundo</string>
     <string name="nome_do_app">ワールドカップショーケース</string>
-    <string name="descricao_nome">ワールドカップ\n2026</string>
+    <string name="descricao_nome">ワールドカップ</string>
+    <string name="ano_copa">2026</string>
     <string name="selecione_idioma">言語を選択</string>
     <string name="portugues">ポルトガル語</string>
     <string name="ingles">英語</string>

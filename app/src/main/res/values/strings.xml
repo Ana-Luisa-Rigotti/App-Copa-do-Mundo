@@ -3,7 +3,8 @@
 
     <string name="nome_do_app">The World Cup Showcase</string>
 
-    <string name="descricao_nome">WORLD CUP\n2026</string>
+    <string name="descricao_nome">WORLD CUP</string>
+    <string name="ano_copa">2026</string>
 
     <string name="selecione_idioma">Select Language</string>
     <string name="portugues">Portuguese</string>

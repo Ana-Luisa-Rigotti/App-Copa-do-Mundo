@@ -5,8 +5,7 @@
     android:gravity="center_vertical"
     android:layout_marginEnd="6dp"
     android:layout_marginStart="6dp"
-    android:background="@drawable/forma_arredondada"
-    android:backgroundTint="@color/fundo_tabelas"
+    android:background="@drawable/fundo_categorias"
     android:layout_marginTop="15dp"
     android:layout_marginBottom="5dp">
 
@@ -29,14 +28,16 @@
                 android:layout_height="wrap_content"
                 android:text="@string/grupo_a"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/cor_textos_padrao"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/time"
                 android:textSize="14sp"
-                android:layout_marginTop="1dp">
+                android:layout_marginTop="1dp"
+                android:textColor="@color/cor_textos_padrao">
 
             </TextView>
 
@@ -62,7 +63,7 @@
                 android:text="@string/pontos"
                 android:textSize="13sp"
                 android:gravity="center"
-
+                android:textColor="@color/cor_textos_padrao"
                 android:textStyle="bold">
 
             </TextView>
@@ -72,7 +73,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content"
                 android:text="@string/partidas_jogadas"
-
+                android:textColor="@color/cor_textos_padrao"
                 android:textSize="13sp">
 
             </TextView>
@@ -82,7 +83,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content"
                 android:text="@string/vitorias"
-
+                android:textColor="@color/cor_textos_padrao"
                 android:textSize="13sp">
 
             </TextView>
@@ -92,7 +93,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content"
                 android:text="@string/empates"
-
+                android:textColor="@color/cor_textos_padrao"
                 android:textSize="13sp">
 
             </TextView>
@@ -103,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/derrotas"
                 android:maxLines="1"
-
+                android:textColor="@color/cor_textos_padrao"
                 android:textSize="13sp">
 
             </TextView>
@@ -113,7 +114,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content"
                 android:text="@string/gols_marcados"
-
+                android:textColor="@color/cor_textos_padrao"
                 android:textSize="13sp">
 
             </TextView>
@@ -124,6 +125,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/gols_contra"
                 android:textSize="13sp"
+                android:textColor="@color/cor_textos_padrao"
                 >
 
             </TextView>
@@ -135,6 +137,7 @@
                 android:text="@string/saldo_de_gols"
                 android:layout_marginEnd="3dp"
                 android:textSize="13sp"
+                android:textColor="@color/cor_textos_padrao"
               >
 
             </TextView>
@@ -160,7 +163,8 @@
             android:layout_height="wrap_content"
             android:text="@string/primeiro_tabela"
             android:textStyle="bold"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtNomeTime1"
@@ -168,7 +172,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="Brasil"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <ImageView
             android:id="@+id/imgBandeiraTime1"
@@ -187,6 +192,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
+            android:textColor="@color/cor_textos_padrao"
             android:textSize="15sp" />
 
         <TextView
@@ -195,7 +201,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtVitoriasTime1"
@@ -203,7 +210,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtEmpatesTime1"
@@ -211,7 +219,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtDerrotasTime1"
@@ -219,7 +228,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtGolsMarcadosTime1"
@@ -227,7 +237,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtGolsContraTime1"
@@ -235,7 +246,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtSaldoGolsTime1"
@@ -244,7 +256,8 @@
             android:gravity="center"
             android:layout_marginEnd="2dp"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
     </LinearLayout>
 
@@ -262,7 +275,8 @@
             android:layout_height="wrap_content"
             android:text="@string/segundo_tabela"
             android:textStyle="bold"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtNomeTime2"
@@ -270,7 +284,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="Argentina"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <ImageView
             android:id="@+id/imgBandeiraTime2"
@@ -289,7 +304,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtJogosTime2"
@@ -297,6 +313,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
+            android:textColor="@color/cor_textos_padrao"
             android:textSize="15sp" />
 
         <TextView
@@ -305,7 +322,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtEmpatesTime2"
@@ -313,7 +331,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtDerrotasTime2"
@@ -321,7 +340,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtGolsMarcadosTime2"
@@ -329,7 +349,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtGolsContraTime2"
@@ -337,7 +358,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtSaldoGolsTime2"
@@ -346,7 +368,8 @@
             android:gravity="center"
             android:layout_marginEnd="2dp"
             android:text="@string/zero"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
     </LinearLayout>
 
@@ -364,7 +387,8 @@
             android:layout_height="wrap_content"
             android:text="@string/terceiro_tabela"
             android:textStyle="bold"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtNomeTime3"
@@ -372,6 +396,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="França"
+            android:textColor="@color/cor_textos_padrao"
             android:textSize="15sp" />
 
         <ImageView
@@ -385,14 +410,14 @@
             android:layout_height="20dp"
             android:layout_weight="1" />
 
-        <TextView android:id="@+id/txtPontosTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtJogosTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtVitoriasTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtEmpatesTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtDerrotasTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtGolsMarcadosTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtGolsContraTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtSaldoGolsTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:layout_marginEnd="2dp" android:text="@string/zero" android:textSize="15sp" />
+        <TextView android:id="@+id/txtPontosTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtJogosTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtVitoriasTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtEmpatesTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtDerrotasTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp"  android:textColor="@color/cor_textos_padrao"/>
+        <TextView android:id="@+id/txtGolsMarcadosTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtGolsContraTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp"  android:textColor="@color/cor_textos_padrao"/>
+        <TextView android:id="@+id/txtSaldoGolsTime3" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:layout_marginEnd="2dp" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
 
     </LinearLayout>
 
@@ -411,7 +436,8 @@
             android:layout_height="wrap_content"
             android:text="@string/quarto_tabela"
             android:textStyle="bold"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <TextView
             android:id="@+id/txtNomeTime4"
@@ -419,7 +445,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="Alemanha"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textColor="@color/cor_textos_padrao"/>
 
         <ImageView
             android:id="@+id/imgBandeiraTime4"
@@ -432,14 +459,14 @@
             android:layout_height="20dp"
             android:layout_weight="1" />
 
-        <TextView android:id="@+id/txtPontosTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtJogosTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtVitoriasTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtEmpatesTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtDerrotasTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtGolsMarcadosTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtGolsContraTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" />
-        <TextView android:id="@+id/txtSaldoGolsTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:layout_marginEnd="2dp" android:text="@string/zero" android:textSize="15sp" />
+        <TextView android:id="@+id/txtPontosTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtJogosTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtVitoriasTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtEmpatesTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtDerrotasTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp"  android:textColor="@color/cor_textos_padrao"/>
+        <TextView android:id="@+id/txtGolsMarcadosTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtGolsContraTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
+        <TextView android:id="@+id/txtSaldoGolsTime4" android:layout_width="27dp" android:layout_height="wrap_content" android:gravity="center" android:layout_marginEnd="2dp" android:text="@string/zero" android:textSize="15sp" android:textColor="@color/cor_textos_padrao" />
 
     </LinearLayout>
 

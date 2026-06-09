@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Tabelas"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/cor_fundo_main">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@drawable/gradiente_banner_main"
+        android:background="@color/cor_banner_superior"
         android:orientation="horizontal"
         android:gravity="center">
 
@@ -19,7 +20,8 @@
             android:id="@+id/img_logo_id"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/img_logo" />
+            android:src="@drawable/img_logo"
+            app:tint="@color/logo" />
 
         <LinearLayout
             android:id="@+id/display_nome"
@@ -35,7 +37,8 @@
                 android:text="@string/nome_do_app"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:gravity="center" />
+                android:gravity="center"
+                android:textColor="@color/cor_textos_padrao"/>
 
             <TextView
                 android:id="@+id/descricao_nome"
@@ -45,16 +48,32 @@
                 android:textSize="16sp"
                 android:gravity="center" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ano_copa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/vermelho_destaque">
+
+            </TextView>
+
         </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@drawable/img_estadio"
-        android:orientation="vertical">
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-500dp"
+            android:src="@drawable/fundo_mapa_mundi"
+            android:scaleType="fitCenter"
+            android:textColor="@color/cor_textos_padrao"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,143 +86,150 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/forma_arredondada"
-            android:backgroundTint="@color/cor_fundo_tabelas_nome"
+            android:backgroundTint="@color/vermelho_destaque"
             android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/titulo_estadios"
-                android:layout_marginTop="7dp"
-                android:layout_marginEnd="7dp"
-                android:layout_marginBottom="7dp"
-                android:layout_marginStart="7dp"
+                android:layout_margin="10dp"
                 android:textSize="21sp"
-                android:textStyle="bold">
-
-            </TextView>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="25dp"
-        android:baselineAligned="false"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:id="@+id/btn_selec_eua"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/fundo_categorias"
-            android:clickable="true"
-            android:focusable="true"
-            android:orientation="vertical"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/bandeira_estados_unidos"
-                android:gravity="center_vertical">
-
-            </ImageView>
-
-            <TextView
-                android:id="@+id/txt_tabelas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/estados_unidos"
-                android:textSize="21sp"
-                android:includeFontPadding="false"
-                android:textStyle="bold">
-
-            </TextView>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/btn_selec_canada"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_weight="1"
-            android:background="@drawable/fundo_categorias"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:clickable="true"
-            android:focusable="true">
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/bandeira_canada">
-
-            </ImageView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/canada"
-                android:textSize="21sp"
-                android:textStyle="bold">
-
-            </TextView>
-
-        </LinearLayout>
-
-    </LinearLayout>
-    
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="30dp">
-        
-        <LinearLayout
-            android:id="@+id/btn_selec_mexico"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_weight="1"
-            android:background="@drawable/fundo_categorias"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="25dp"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:clickable="true"
-            android:focusable="true">
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/bandeira_mexico">
-
-            </ImageView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/mexico"
                 android:textStyle="bold"
-                android:textSize="21sp">
+                android:textColor="@color/cor_textos_titulos">
 
             </TextView>
 
         </LinearLayout>
-        
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_selec_eua"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/fundo_categorias"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bandeira_estados_unidos"
+                    android:gravity="center_vertical">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/txt_tabelas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/estados_unidos"
+                    android:textSize="21sp"
+                    android:includeFontPadding="false"
+                    android:textStyle="bold"
+                    android:textColor="@color/cor_textos_padrao">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_selec_canada"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@drawable/fundo_categorias"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bandeira_canada">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/canada"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cor_textos_padrao">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:id="@+id/btn_selec_mexico"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:background="@drawable/fundo_categorias"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bandeira_mexico">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mexico"
+                    android:textStyle="bold"
+                    android:textSize="21sp"
+                    android:textColor="@color/cor_textos_padrao">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
     </LinearLayout>
 
 
 
-    </LinearLayout>
+
+    </FrameLayout>
 
     
 </LinearLayout>

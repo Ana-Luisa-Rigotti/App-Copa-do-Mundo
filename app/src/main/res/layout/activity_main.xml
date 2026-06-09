@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/cor_fundo_main">
 
 <LinearLayout
     android:id="@+id/main"
@@ -15,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="160dp"
-            android:background="@drawable/gradiente_banner_main"
+            android:background="@color/cor_banner_superior"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -23,7 +24,8 @@
                 android:id="@+id/img_logo_id"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/img_logo">
+                android:src="@drawable/img_logo"
+                app:tint="@color/logo">
 
             </ImageView>
 
@@ -41,7 +43,8 @@
                     android:gravity="center"
                     android:text="@string/nome_do_app"
                     android:textSize="20sp"
-                    android:textStyle="bold">
+                    android:textStyle="bold"
+                    android:textColor="@color/cor_textos_padrao">
 
                 </TextView>
 
@@ -51,7 +54,18 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/descricao_nome"
-                    android:textSize="16sp">
+                    android:textSize="16sp"
+                    android:textColor="@color/cor_textos_padrao">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ano_copa"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/vermelho_destaque">
 
                 </TextView>
 
@@ -59,205 +73,172 @@
 
         </LinearLayout>
 
-    <ScrollView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:fillViewport="true"
-        android:scrollbars="vertical">
+        android:layout_weight="1">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/img_estadio"
-        android:orientation="vertical">
-
-        <LinearLayout
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="25dp"
-            android:baselineAligned="false"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_marginTop="-230dp"
+            android:src="@drawable/fundo_mapa_mundi"
+            android:scaleType="fitCenter"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
 
             <LinearLayout
-                android:id="@+id/btn_tabelas"
-                android:layout_width="0dp"
-                android:layout_height="200dp"
-                android:layout_marginEnd="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/fundo_categorias"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tabelas_simbolo"
-                    android:textSize="60dp"
-                    android:gravity="center_vertical">
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="horizontal">
 
-                </TextView>
+                    <LinearLayout
+                        android:id="@+id/btn_tabelas"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/fundo_categorias"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:orientation="vertical"
+                        android:gravity="center">
 
-                <TextView
-                    android:id="@+id/txt_tabelas"
-                    android:layout_width="wrap_content"
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:src="@drawable/img_trofeu"
+                            app:tint="@color/vermelho_icones">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/txt_tabelas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/tabelas"
+                            android:textSize="22sp"
+                            android:includeFontPadding="false"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/fundo_categorias">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/teste"
+                            android:textSize="22sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:text="@string/tabelas"
-                    android:textSize="22sp"
-                    android:includeFontPadding="false"
-                    android:textStyle="bold">
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal">
 
-                </TextView>
+                    <LinearLayout
+                        android:id="@+id/btnEstadios"
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:background="@drawable/fundo_categorias"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/img_estadio_icon"
+                            app:tint="@color/vermelho_icones">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/titulo_estadios"
+                            android:textSize="22sp"
+                            android:textStyle="bold">
+
+                        </TextView>
 
 
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="170dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/fundo_categorias">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/teste"
+                            android:textSize="22sp"
+                            android:textStyle="bold">
+
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+                <!--Fim fundo com foto-->
             </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="200dp"
-                android:layout_weight="1"
-                android:background="@drawable/fundo_categorias">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="20dp"
-                    android:text="@string/teste"
-                    android:textSize="22sp"
-                    android:textStyle="bold">
-
-                </TextView>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="25dp"
-            android:baselineAligned="false"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:id="@+id/btnEstadios"
-                android:layout_width="0dp"
-                android:layout_height="200dp"
-                android:layout_marginEnd="10dp"
-                android:layout_weight="1"
-                android:clickable="true"
-                android:focusable="true"
-                android:background="@drawable/fundo_categorias">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="20dp"
-                    android:text="@string/titulo_estadios"
-                    android:textSize="22sp"
-                    android:textStyle="bold">
-
-                </TextView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="200dp"
-                android:layout_weight="1"
-                android:background="@drawable/fundo_categorias">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginTop="20dp"
-                    android:text="@string/teste"
-                    android:textSize="22sp"
-                    android:textStyle="bold">
-
-                </TextView>
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_marginTop="50dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:backgroundTint="@color/cor_fundo_categorias"
-            android:background="@drawable/forma_arredondada"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_marginTop="3dp"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/img_logo">
-
-            </ImageView>
-
-            <ImageView
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="3dp"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/img_logo">
-
-            </ImageView>
-
-            <ImageView
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="3dp"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/img_logo">
-
-            </ImageView>
-
-            <ImageView
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="3dp"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/img_logo">
-
-            </ImageView>
-
-            <ImageView
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="3dp"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:src="@drawable/img_logo"
-                android:layout_marginEnd="10dp">
-
-            </ImageView>
-
-        </LinearLayout>
-
-
-
-        <!--Fim fundo com foto-->
-    </LinearLayout>
 
         </ScrollView>
+
+    </FrameLayout>
+
+
+
+
 
 
     </LinearLayout>

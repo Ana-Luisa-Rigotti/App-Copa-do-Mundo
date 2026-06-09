@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Tabelas"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/cor_fundo_main">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@drawable/gradiente_banner_superior"
+        android:background="@color/cor_banner_superior"
         android:orientation="horizontal"
         android:gravity="center">
 
@@ -19,7 +20,8 @@
             android:id="@+id/img_logo_id"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/img_logo" />
+            android:src="@drawable/img_logo"
+            app:tint="@color/logo" />
 
         <LinearLayout
             android:id="@+id/display_nome"
@@ -45,35 +47,13 @@
                 android:textSize="16sp"
                 android:gravity="center" />
 
-        </LinearLayout>
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/forma_arredondada"
-            android:backgroundTint="@color/cor_fundo_tabelas_nome"
-            android:gravity="center">
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/tabelas"
-                android:layout_marginTop="7dp"
-                android:layout_marginEnd="7dp"
-                android:layout_marginBottom="7dp"
-                android:layout_marginStart="7dp"
-                android:textSize="21sp"
-                android:textStyle="bold">
+                android:text="@string/ano_copa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/vermelho_destaque">
 
             </TextView>
 
@@ -81,12 +61,62 @@
 
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerTabela"
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="5dp"/>
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-500dp"
+            android:src="@drawable/fundo_mapa_mundi"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/forma_arredondada"
+                    android:backgroundTint="@color/vermelho_icones">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tabelas"
+                        android:textSize="21sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/cor_textos_titulos"
+                        android:layout_margin="10dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerTabela"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
 
 </LinearLayout>
