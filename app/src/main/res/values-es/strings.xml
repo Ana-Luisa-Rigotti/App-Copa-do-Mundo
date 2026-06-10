@@ -18,6 +18,8 @@
     <string name="zero">0</string>
     <string name="tabelas_simbolo">🏆</string>
 
+    <string name="selecoes">Selecciones</string>
+
     <string name="tabelas">Tablas</string>
     <string name="time">Equipo</string>
     <string name="pontos">Pts</string>
@@ -109,7 +111,7 @@
     <string name="panama">Panamá</string>
 
     <string name="titulo_estadios">Estadios</string>
-    <string name="capacidade">Capacidad: %1$d</string>
+    <string name="capacidade">Capacidad: %1$s</string>
 
     <!-- Stadium Names -->
     <string name="stadium_name_metlife">Estadio MetLife</string>

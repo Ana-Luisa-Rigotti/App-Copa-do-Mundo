@@ -26,8 +26,7 @@ public class EstadioAdapter extends RecyclerView.Adapter<EstadioAdapter.EstadioV
     @NonNull
     @Override
     public EstadioViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        // Este metodo cria a visualização de cada item da lista
-        View item = LayoutInflater.from(context).inflate(R.layout.item_estadio, parent, false);
+        View item = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_estadio, parent, false);
         return new EstadioViewHolder(item);
     }
 
@@ -35,18 +34,16 @@ public class EstadioAdapter extends RecyclerView.Adapter<EstadioAdapter.EstadioV
     public void onBindViewHolder(@NonNull EstadioViewHolder holder, int position) {
         EstadioPojo estadio = listaEstadios.get(position);
 
-        // Usa getTraducao para mostrar o nome e cidade traduzidos na lista
         holder.txtNome.setText(getTraducao(estadio.getNome()));
         holder.txtCidade.setText(getTraducao(estadio.getLocal()));
 
         holder.cardEstadio.setOnClickListener(v -> {
             Intent intent = new Intent(context, DetalheEstadio.class);
-            intent.putExtra("id_estadio", estadio.getId()); // Passa o ID para a tela de detalhe
+            intent.putExtra("id_estadio", estadio.getId());
             context.startActivity(intent);
         });
     }
 
-    // Busca a tradução baseada na chave vinda do banco de dados
     private String getTraducao(String chave) {
         if (chave == null || chave.isEmpty()) return "";
         int resId = context.getResources().getIdentifier(chave, "string", context.getPackageName());
@@ -55,18 +52,15 @@ public class EstadioAdapter extends RecyclerView.Adapter<EstadioAdapter.EstadioV
 
     @Override
     public int getItemCount() {
-        return listaEstadios.size();
+        return listaEstadios != null ? listaEstadios.size() : 0;
     }
 
     public static class EstadioViewHolder extends RecyclerView.ViewHolder {
-
         LinearLayout cardEstadio;
-        TextView txtNome;
-        TextView txtCidade;
+        TextView txtNome, txtCidade;
 
         public EstadioViewHolder(@NonNull View itemView) {
             super(itemView);
-
             cardEstadio = itemView.findViewById(R.id.card_estadio);
             txtNome = itemView.findViewById(R.id.txt_nome_estadio_item);
             txtCidade = itemView.findViewById(R.id.txt_cidade_estadio_item);

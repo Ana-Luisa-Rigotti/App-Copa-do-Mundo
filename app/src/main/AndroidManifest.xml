@@ -12,12 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_Copa_do_Mundo">
         <activity
+            android:name=".DetalheSelecao"
+            android:exported="true" />
+        <activity
+            android:name=".Selecoes"
+            android:exported="true" />
+        <activity
+            android:name=".SelecaoSelecoes"
+            android:exported="true" />
+        <activity
             android:name=".DetalheEstadio"
             android:exported="true" />
-
-        <activity android:name=".Estadios"
-            android:exported="true"/>
-
+        <activity
+            android:name=".Estadios"
+            android:exported="true" />
         <activity
             android:name=".SelecaoEstadios"
             android:exported="true" />

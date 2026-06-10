@@ -18,6 +18,7 @@
     
     <color name="cor_textos_padrao">#000000</color>
     <color name="cor_textos_titulos">#FFFFFF</color>
+    <color name="cor_subtitulos">#525254</color>
     
 
     <color name="cor_categorias">#DAFFFFFF</color>

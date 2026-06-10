@@ -100,9 +100,9 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="30dp"
-                    android:layout_marginEnd="30dp"
+                    android:layout_marginEnd="25dp"
                     android:baselineAligned="false"
                     android:gravity="center"
                     android:orientation="horizontal">
@@ -110,7 +110,7 @@
                     <LinearLayout
                         android:id="@+id/btn_tabelas"
                         android:layout_width="0dp"
-                        android:layout_height="170dp"
+                        android:layout_height="180dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
                         android:background="@drawable/fundo_categorias"
@@ -135,7 +135,8 @@
                             android:text="@string/tabelas"
                             android:textSize="22sp"
                             android:includeFontPadding="false"
-                            android:textStyle="bold">
+                            android:textStyle="bold"
+                            android:textColor="@color/cor_textos_padrao">
 
                         </TextView>
 
@@ -143,19 +144,37 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/btnSelecoes"
                         android:layout_width="0dp"
-                        android:layout_height="170dp"
+                        android:layout_height="180dp"
                         android:layout_weight="1"
-                        android:background="@drawable/fundo_categorias">
+                        android:background="@drawable/fundo_categorias"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:clickable="true"
+                        android:focusable="true">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:src="@drawable/img_camisa_selc_icon"
+                            app:tint="@color/vermelho_icones"
+                            android:layout_marginTop="32dp">
+
+                        </ImageView>
 
                         <TextView
+                            android:id="@+id/txtSelecoesMain"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="20dp"
-                            android:text="@string/teste"
+                            android:text="@string/selecoes"
                             android:textSize="22sp"
-                            android:textStyle="bold">
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:minLines="2"
+                            android:textColor="@color/cor_textos_padrao"
+                            android:layout_marginTop="6dp"
+                            android:includeFontPadding="false">
 
                         </TextView>
 
@@ -167,16 +186,16 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="30dp"
-                    android:layout_marginEnd="30dp"
+                    android:layout_marginEnd="25dp"
                     android:baselineAligned="false"
                     android:orientation="horizontal">
 
                     <LinearLayout
                         android:id="@+id/btnEstadios"
                         android:layout_width="0dp"
-                        android:layout_height="170dp"
+                        android:layout_height="180dp"
                         android:layout_marginEnd="10dp"
                         android:layout_weight="1"
                         android:clickable="true"
@@ -198,7 +217,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/titulo_estadios"
                             android:textSize="22sp"
-                            android:textStyle="bold">
+                            android:textStyle="bold"
+                            android:textColor="@color/cor_textos_padrao">
 
                         </TextView>
 
@@ -207,7 +227,7 @@
 
                     <LinearLayout
                         android:layout_width="0dp"
-                        android:layout_height="170dp"
+                        android:layout_height="180dp"
                         android:layout_weight="1"
                         android:background="@drawable/fundo_categorias">
 

@@ -109,7 +109,9 @@
     <string name="panama">Panama</string>
 
     <string name="titulo_estadios">Stadien</string>
-    <string name="capacidade">Kapazität: %1$d</string>
+    <string name="capacidade">Kapazität: %1$s</string>
+
+    <string name="selecoes">National\nteams</string>
 
     <!-- Stadium Names -->
     <string name="stadium_name_metlife">MetLife Stadium</string>

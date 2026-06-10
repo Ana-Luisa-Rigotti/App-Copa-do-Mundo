@@ -7,7 +7,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class ConexaoSQLite extends SQLiteOpenHelper {
 
     private static final String NOME_BANCO = "estadios.db";
-    private static final int VERSAO_BANCO = 2;
+    // Versão 3 para garantir que o onUpgrade rode e limpe os textos antigos
+    private static final int VERSAO_BANCO = 3;
 
     public ConexaoSQLite(Context context) {
         super(context, NOME_BANCO, null, VERSAO_BANCO);

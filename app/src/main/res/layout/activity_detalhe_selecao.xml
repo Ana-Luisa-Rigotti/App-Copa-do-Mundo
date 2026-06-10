@@ -79,7 +79,7 @@
             android:padding="20dp">
 
             <TextView
-                android:id="@+id/txt_nome_estadio_detalhe"
+                android:id="@+id/txt_nome_selecao_detalhe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -89,7 +89,7 @@
                 android:textColor="@color/cor_textos_padrao"/>
 
             <TextView
-                android:id="@+id/txt_cidade_estadio_detalhe"
+                android:id="@+id/txt_continente_selecao_detalhe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
@@ -112,30 +112,6 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:layout_marginTop="22dp"
-                        android:gravity="center_vertical">
-
-                        <ImageView
-                            android:layout_width="32dp"
-                            android:layout_height="32dp"
-                            android:src="@drawable/img_capacidade_icon"
-                            app:tint="@color/vermelho_icones" />
-
-                        <TextView
-                            android:id="@+id/txt_capacidade_estadio"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="capacidade"
-                            android:textSize="16sp"
-                            android:lineSpacingExtra="4dp"
-                            android:textColor="@color/cor_subtitulos"
-                            android:layout_marginStart="10dp"/>
-
-                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -145,7 +121,7 @@
 
                         <!-- ImageView Corrigida: Usando match_parent para caber na tela e mostrar os cantos -->
                         <ImageView
-                            android:id="@+id/img_estadio_detalhe"
+                            android:id="@+id/img_selecao_detalhe"
                             android:layout_width="match_parent"
                             android:layout_height="220dp"
                             android:layout_marginStart="10dp"
@@ -157,7 +133,7 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/txt_descricao_estadio"
+                        android:id="@+id/txt_descricao_selecao"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="22dp"

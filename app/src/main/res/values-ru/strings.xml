@@ -18,6 +18,8 @@
     <string name="zero">0</string>
     <string name="tabelas_simbolo">🏆</string>
 
+    <string name="selecoes">Национальные\nсборные</string>
+
     <string name="tabelas">Таблицы</string>
     <string name="time">Команда</string>
     <string name="pontos">О</string>
@@ -109,7 +111,7 @@
     <string name="panama">Панама</string>
 
     <string name="titulo_estadios">Стадионы</string>
-    <string name="capacidade">Вместимость: %1$d</string>
+    <string name="capacidade">Вместимость: %1$s</string>
 
     <!-- Stadium Names -->
     <string name="stadium_name_metlife">Метлайф-стэдиум</string>

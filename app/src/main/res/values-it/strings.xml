@@ -19,6 +19,8 @@
     <string name="tabelas_simbolo">🏆</string>
     <string name="tabelas">Classifiche</string>
 
+    <string name="selecoes">Nazionali</string>
+
     <string name="time">Squadra</string>
     <string name="pontos">Pt</string>
     <string name="partidas_jogadas">PG</string>
@@ -109,7 +111,7 @@
     <string name="panama">Panama</string>
 
     <string name="titulo_estadios">Stadi</string>
-    <string name="capacidade">Capacità: %1$d</string>
+    <string name="capacidade">Capacità: %1$s</string>
 
     <!-- Nomi degli Stadi -->
     <string name="stadium_name_metlife">Stadio MetLife</string>

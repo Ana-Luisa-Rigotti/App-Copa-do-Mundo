@@ -5,11 +5,12 @@
     <color name="cor_banner_superior">#132638</color>
     <color name="cor_fundo_main">#012138</color>
     <color name="vermelho_destaque">#D7263D</color>
-    <color name="vermelho_icones">#CE192D</color>
+    <color name="vermelho_icones">#D9142A</color>
 
     <color name="cor_textos_padrao">#FFFFFF</color>
-    <color name="cor_textos_titulos">#000000</color>
+    <color name="cor_textos_titulos">#FFFFFF</color>
+    <color name="cor_subtitulos">#E6ECF1</color>
 
-    <color name="cor_categorias">#DC132638</color>
+    <color name="cor_categorias">#B1253B61</color>
 
 </resources>

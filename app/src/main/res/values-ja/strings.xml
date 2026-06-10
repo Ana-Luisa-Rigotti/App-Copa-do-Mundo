@@ -18,6 +18,8 @@
     <string name="zero">0</string>
     <string name="tabelas_simbolo">🏆</string>
 
+    <string name="selecoes">代表チーム</string>
+
     <string name="tabelas">順位表</string>
     <string name="time">チーム</string>
     <string name="pontos">勝点</string>
@@ -109,7 +111,7 @@
     <string name="panama">パナマ</string>
 
     <string name="titulo_estadios">スタジアム</string>
-    <string name="capacidade">収容人数: %1$d</string>
+    <string name="capacidade">収容人数: %1$s</string>
 
     <!-- Stadium Names -->
     <string name="stadium_name_metlife">メットライフ・スタジアム</string>

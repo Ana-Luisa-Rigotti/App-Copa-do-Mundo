@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/card_estadio"
+        android:id="@+id/card_selecao"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:background="@drawable/fundo_categorias"
@@ -21,7 +21,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:id="@+id/txt_nome_estadio_item"
+            android:id="@+id/txt_nome_selecao_item"
             android:text="@string/estados_unidos"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:text="@string/teste"
             android:textSize="14sp"
-            android:id="@+id/txt_cidade_estadio_item"
+            android:id="@+id/txt_contineente_selecao_item"
             android:textColor="@color/cor_textos_padrao"/>
 
     </LinearLayout>
